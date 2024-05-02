@@ -17,6 +17,7 @@
 		C63C9D712BE19135007A7144 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63C9D702BE19135007A7144 /* View+Extensions.swift */; };
 		C63C9D732BE1985F007A7144 /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63C9D722BE1985F007A7144 /* Date+Extensions.swift */; };
 		C63C9D762BE19B2B007A7144 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63C9D752BE19B2B007A7144 /* CardView.swift */; };
+		C6634A882BE3EAF500D1F9EB /* TransactionCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6634A872BE3EAF500D1F9EB /* TransactionCardView.swift */; };
 		C69199C12BDEC5EF00CD86BC /* ExpenseTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69199C02BDEC5EF00CD86BC /* ExpenseTrackerApp.swift */; };
 		C69199C32BDEC5EF00CD86BC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69199C22BDEC5EF00CD86BC /* ContentView.swift */; };
 		C69199C52BDEC5F100CD86BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C69199C42BDEC5F100CD86BC /* Assets.xcassets */; };
@@ -37,6 +38,7 @@
 		C63C9D702BE19135007A7144 /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
 		C63C9D722BE1985F007A7144 /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
 		C63C9D752BE19B2B007A7144 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		C6634A872BE3EAF500D1F9EB /* TransactionCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionCardView.swift; sourceTree = "<group>"; };
 		C69199BD2BDEC5EF00CD86BC /* ExpenseTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExpenseTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C69199C02BDEC5EF00CD86BC /* ExpenseTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseTrackerApp.swift; sourceTree = "<group>"; };
 		C69199C22BDEC5EF00CD86BC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -73,6 +75,7 @@
 			isa = PBXGroup;
 			children = (
 				C63C9D752BE19B2B007A7144 /* CardView.swift */,
+				C6634A872BE3EAF500D1F9EB /* TransactionCardView.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -231,6 +234,7 @@
 				C69199D62BDECD4400CD86BC /* Constants.swift in Sources */,
 				C63C9D6D2BE18F26007A7144 /* Graphs.swift in Sources */,
 				C63C9D622BE18C8A007A7144 /* Category.swift in Sources */,
+				C6634A882BE3EAF500D1F9EB /* TransactionCardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
